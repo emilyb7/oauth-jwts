@@ -1,0 +1,23 @@
+{
+  "name": "hapi_boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "env2": "^2.1.1",
+    "hapi": "^16.1.0",
+    "hapi-auth-jwt2": "^7.2.4",
+    "inert": "^4.1.0",
+    "jsonwebtoken": "^7.3.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "description": ""
+}
